@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    margin: 15px;
+
+  
+}
+
+.cax{
+    width: 200px;
+    height: 150px;
+    border: solid 2px;
+    
+}
+.caixa1:hover{
+    background-image: url(https://i.pinimg.com/originals/eb/fb/14/ebfb14baa989baaf5264b108547079e0.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.caixa1{
+    background-image: url(https://www.tudodesenhos.com/uploads/images/4350/pato-donald-cowboy.gif);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.caixa2:hover{
+    background-image: url(data:image/jpeg;base64,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);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.caixa2{
+    background-image: url(https://comofazeremcasa.net/wp-content/uploads/2020/04/desenhos-de-mickey-para-pintar-15.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+.caixa3:hover{
+    background-image: url(https://4.bp.blogspot.com/-Ne-KHti1gGM/V-Y1IGKqpTI/AAAAAAAAHS8/DwVvUXm9D0cRUXAMR3PMmVGG8y5d4scZwCLcB/s1600/pica%2Bpau.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.caixa3{
+    background-image: url(https://poplembrancinhas.com.br/wp-content/uploads/2020/04/desenhos-de-pica-pau-2.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.caixa4:hover{
+    background-image: url(https://i.pinimg.com/474x/1c/68/aa/1c68aab65f59c6a415602d167db173b1--lilo-e-stitch-stitches.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.caixa4{
+    background-image: url(https://coloringpagesonly.com/wp-content/uploads/2021/10/Cute-Stitch.png);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.caixa5:hover{
+    background-image: url(https://www.comoaprenderdesenhar.com.br/wp-content/uploads/2015/09/como-desenhar-o-Bob-dos-Minions-1.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.caixa5{
+    background-image: url(https://i.pinimg.com/474x/38/ce/71/38ce71aba92b30efd1dc6e9ab07fceb1--minion-drawing-minion-stuff.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.caixa6:hover{
+    background-image: url(http://pm1.narvii.com/6434/7a2cb5fc86df1db37db549422128c66186059808_00.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.caixa6{
+    background-image: url(https://poplembrancinhas.com.br/wp-content/uploads/2020/02/desenhos-de-pikachu-para-colorir-2.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.caixa7:hover{
+    background-image: url(https://www.voceselembra.com/wp-content/uploads/2021/02/Garfield-anos-80-e-90.jpg);
+    background-position: center;
+    background-size: 90% 100%;
+
+}
+.caixa7{
+    background-image: url(https://colorir.me/wp-content/uploads/2021/09/brilhante-garfield.jpg);
+    background-position: center;
+    background-size: 110% 105%;
+
+}
+.caixa8:hover{
+    background-image: url(https://upload.wikimedia.org/wikipedia/pt/e/ed/Shrek%28personagem%29.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.caixa8{
+    background-image: url(https://colorir.me/wp-content/uploads/2021/07/Shrek-Divertido.jpg);
+    background-position: center;
+    background-size: 110% 110%;
+
+}
+.caixa9:hover{
+    background-image: url(https://i.pinimg.com/originals/bd/d9/70/bdd9700ddde36faa137cfb3dfd8d302a.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.caixa9{
+    background-image: url(https://i0.wp.com/www.desenhosimprimir.com.br/wp-content/uploads/2021/03/desenhos-do-patati-patata-para-colorir-abracados.jpg?fit=1262%2C1372&ssl=1);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
