@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    gap: .2rem;
+    
+}
+
+button{
+    align-items: center;
+    gap: .10rem;
+    
+}
+button img{
+    justify-content: center;
+
+}
+
